@@ -1,0 +1,97 @@
+Initial Board State #:1
+W . W 
+
+. . . 
+
+B B B 
+
+Input User's Move #1
+From: 1 2
+To: 2 1
+
+Input User's Move #1
+From: 1 2
+To: 21 1
+
+Input User's Move #1
+From: 1 1
+To: 1 11
+
+Input User's Move #1
+From: 1 1
+To: 1 2
+
+Initial Board State #:2
+. W W 
+
+. . . 
+
+B B B 
+
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-12, モ=-100
+>> Computer Move: (3,1) -> (2,1)
+Next Board State after Computer's Move:
+Initial Board State #:3
+. W W 
+
+B . . 
+
+. B B 
+
+Computer's Evaluation Value: -15pts
+Input User's Move #1
+From: 1 2
+To: 2 1
+
+Initial Board State #:4
+. . W 
+
+W . . 
+
+. B B 
+
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-5, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=0, モ=-3
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=0, モ=-11
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=0, モ=-8
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=100, モ=-3
+>> Computer Move: (3,2) -> (2,1)
+Next Board State after Computer's Move:
+Initial Board State #:5
+. . W 
+
+B . . 
+
+. . B 
+
+Computer's Evaluation Value: -12pts
+Input User's Move #1
+From: 1 3
+To: 1 2
+
+Initial Board State #:6
+. W . 
+
+B . . 
+
+. . B 
+
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-12, モ=-12
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 3, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-100, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 1, メ=-17, モ=-100
+[PRUNED] Depth(ply): 2, Subtree: 4, メ=-17, モ=-100
+>> Computer Move: (2,1) -> (1,1)
+Next Board State after Computer's Move:
+Initial Board State #:7
+B W . 
+
+. . . 
+
+. . B 
+
+Computer's Evaluation Value: -19pts
